@@ -85,7 +85,7 @@ fi
 
 if [[ -d "$base/gospel" ]]; then
     echo -ne "\033[?25h\n"
-    read -p "$(echo -e "${N}Do you wan't to backup ${GG}${base}/gospel${N}? (y/n) ")" chs
+    read -p "$(echo -e "${N}Do you want to backup ${GG}${base}/gospel${N}? (y/n) ")" chs
     echo -ne "\033[?25l"
 
     if [[ "$chs" == 'y' ]]; then
