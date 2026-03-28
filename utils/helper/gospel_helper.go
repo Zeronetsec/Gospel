@@ -8,12 +8,15 @@ import (
     "encoding/json"
     "io/fs"
     "gospel/utils/color"
+    "gospel/utils/birthday"
 )
 
 //go:embed metadata/*
 var MetadataFS embed.FS
 
 func GospelHelper() {
+    birthday.GospelBirthDay()
+
     fmt.Printf(
         "%sUsage: %sgospel %s[<args>]%s\n",
         color.N, color.GG, color.CC, color.N,
