@@ -102,7 +102,7 @@ install \
     "Retidy: ${GG}gospel${N}"
 
 install \
-    "command go build -o gospel 2>/dev/null" \
+    "command go build -v -o gospel" \
     "Building: ${GG}gospel${N}"
 cd
 
