@@ -29,34 +29,6 @@ From decoding obscure strings to uncovering system misconfigurations, Gospel giv
 - Extract insights from strings (entropy, hashes, metadata)
 - And more
 
-## Testing
-<table>
-	<tr>
-		<th>OS</th>
-		<th>Version</th>
-	</tr>
-	<tr>
-		<td>Debian</td>
-		<td>Trixie</td>
-	</tr>
-    <tr>
-        <td>Ubuntu</td>
-        <td>25.10</td>
-    </tr>
-	<tr>
-		<td>Kali</td>
-		<td>Rolling</td>
-	</tr>
-    <tr>
-        <td>Alpine</td>
-        <td>3.23</td>
-    </tr>
-	<tr>
-		<td>Termux</td>
-		<td>0.118.3</td>
-	</tr>
-</table>
-
 ## Installation
 ```bash
 git clone https://github.com/Zeronetsec/Gospel.git
@@ -71,11 +43,10 @@ chmod +x install.sh
 ## Usage
 ```bash
 gospel --misconfind <path>
+gospel --dumpstring <string>
+gospel --decode <string|file>
 gospel --procinfo
 gospel --sysinfo
-gospel --decode <string|file>
-gospel --help
-gospel --version
 ```
 And more commands.
 
