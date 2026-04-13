@@ -18,7 +18,7 @@ func GospelHelper() {
     birthday.GospelBirthDay()
 
     fmt.Printf(
-        "%sUsage: %sgospel %s[<args>]%s\n",
+        "%sUsage: %sgospel %s<command> [<args>]%s\n",
         color.N, color.GG, color.CC, color.N,
     )
 
