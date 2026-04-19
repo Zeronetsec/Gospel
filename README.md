@@ -4,23 +4,10 @@
 [![gover](https://img.shields.io/badge/Go-Version%201.26.1-blue.svg)]()
 [![os](https://img.shields.io/badge/Supported%20OS-Linux-blue.svg)]()
 [![license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![views](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2FZeronetsec%2FGospel.json&&label=Views&color=blue)](https://github.com/Zeronetsec/Gospel)
 
 # Gospel
 Gospel is an all-in-one CLI toolkit for system exploration, security auditing, and data inspection. <br>
 From decoding obscure strings to uncovering system misconfigurations, Gospel gives you deeper insight into your system.
-
-## Preview
-<details>
-<summary>Show Preview</summary>
-<br>
-<img src=".preview/preview_1.png" width="500">
-<br><br>
-<img src=".preview/preview_2.png" width="500">
-<br><br>
-<img src=".preview/preview_3.png" width="500">
-<br>
-</details>
 
 ## Features
 - Inspect system and hardware information
